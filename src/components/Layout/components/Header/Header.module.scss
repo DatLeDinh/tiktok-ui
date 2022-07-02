@@ -15,11 +15,20 @@
 }
 .logo {
 }
+.search,
+.search-result {
+  width: 361px;
+}
+.search-result {
+  padding: 8px;
+}
+.search-title {
+  color: rgba(22, 24, 35, 0.5);
+}
 .search {
   position: relative;
   display: flex;
 
-  width: 361px;
   height: var(--search-height);
   background-color: rgba(22, 24, 35, 0.06);
   border-radius: 92px;
